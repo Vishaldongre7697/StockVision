@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StockVision - AI-Powered Stock Analysis</title>
+    <meta name="description" content="AI-powered stock analysis and predictions for investors" />
+    <script>
+      // On page load or when changing themes, apply the correct theme
+      if (localStorage.theme === 'dark' || 
+          (!('theme' in localStorage) && 
+           window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark')
+        document.documentElement.classList.remove('light')
+      } else {
+        document.documentElement.classList.add('light')
+        document.documentElement.classList.remove('dark')
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/yourapp/src/main.tsx"></script>
+  </body>
+</html>

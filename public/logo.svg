@@ -1,0 +1,13 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="32" height="32" rx="8" fill="#0288d1"/>
+  <path d="M8 24V12L16 8L24 12V24" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M8 16L16 20L24 16" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+</svg>
+</qodoArtifact>
+```
+
+4. **Fix Styling Issues (Medium Priority)**
+
+Move cube animation styles to global CSS:
+
+```tool_code

@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@app/*": ["*"]
+    },
+    "types": [
+      "node",
+      "react",
+      "react-dom",
+      "react-native-web",
+      "styled-jsx"
+    ],
+    "lib": [
+      "es6",
+      "dom",
+      "esnext.asynciterable"
+    ]
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
